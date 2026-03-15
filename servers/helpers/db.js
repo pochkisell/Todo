@@ -1,4 +1,4 @@
-require('dotenv/lib/main').config()
+require('dotenv').config()
 const { Pool } = require('pg')
 
 const query = (sql,values = []) => {
